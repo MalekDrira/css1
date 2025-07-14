@@ -1,0 +1,125 @@
+form{
+    font-family: Roboto
+}
+/* bodyglobal */
+body{
+    line-height: 1.6;
+    color: #333;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content:flex-end; 
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+.navbar img {
+    width: 5%;
+    height: 5%;
+    margin: 7px;
+}
+.navbar a{
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color:red
+}
+/* Sections */
+section{
+    padding: 40px 20px;
+    text-align:left;
+}
+/* Home */
+.accueil h1{
+    font-size:larger;
+    color:blue;
+    text-decoration: underline; 
+    text-decoration-color: blue;
+}
+.accueil p{
+    font-size: large;
+    color: #555;
+}
+/* About */
+.about img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 10px pink;
+    float: right;
+}
+.about h1{
+    color: palevioletred;
+}
+.highlight {
+    color: #FF5733;
+    font-weight: bold;
+}
+/* Projects */
+.projets h2{
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+.projets img{
+    text-align: left;
+    max-width: 600px;
+    margin: 20px;
+}
+/* Tableau */
+#projects-table table{
+    width: 50%;
+    margin: 20px;
+    border-collapse:collapse;
+    background-color: #fff;
+}
+#projects-table th,td{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+/* Skills */
+.compétences ul{
+    list-style: square inside;
+    padding: 10px;
+}
+.compétences dl{
+    margin-top: 20px;
+    text-align: left;
+    max-width: 600px;
+}
+.compétences dt{
+    font-weight: bold;
+    color: violet;
+    margin-top: 10px;
+}
+.compétences dd{
+    margin-left: 20px;
+    color: #444;
+}
+/* Contact */
+.contact a{
+    color: darkviolet;
+    text-decoration: none;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+/* Main */
+main{
+    padding-left: 20%;
+}
+/* Footer */
+footer{
+    background-color: darkgrey;
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    color: crimson;
+    margin: 10px;
+    text-decoration: none;
+}
